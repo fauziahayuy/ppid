@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0 !important;
+	padding: 0 !important;
+	background-color: #F3F3F3;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar-brand img{
+	max-width: 150px;
+	height: auto;
+}
+
+.navbar-nav a{
+	color: #212121;
+}
+
+.btn-login a{
+	color: #0080C5;
+	border: 1px solid #0080C5;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.btn-login a:hover{
+	color: white;
+	background-color: #0080C5;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*Jumbotron*/
+#jumbotron img{
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+/*Jumbotron*/
+
+/*Formulir Permohonan*/
+.formulir{
+	background-color: white;
+	border-radius: 10px;
+}
+
+.title-form h4,h5{
+	font-family: 'Lato', sans-serif;
+}
+
+.title-form h5{
+	color: #0080C5;
+}
+
+.title-form hr{
+	width: 60%; 
+	margin: 0 20% 0 20%;
+}
+
+.formulir a{
+	color: #212121;
+	text-decoration: none;
+}
+/*Formulir Permohonan*/
+
+/*Kegiatan*/
+.kegiatan{
+	background-color: white;
+}
+
+.title-kegiatan h4,h5{
+	font-family: 'Lato', sans-serif;
+}
+
+.list-kegiatan a{
+	text-decoration: none;
+}
+
+.list-kegiatan a:hover{
+	background-color: #94D9FF;
+}
+
+.list-kegiatan .card{
+	border-color: #006399;
+}
+
+.list-kegiatan .card img{
+	width: 100% !important;
+	height: 13vw !important;
+	object-fit: cover !important;
+}
+
+.list-kegiatan .card .card-title{
+	color: #006399;
+	font-weight: bold;
+}
+
+.list-kegiatan .btn-primary{
+	color: #006399;
+	background-color: #61C8FF;
+	font-size: 13px;
+	border: none;
+}
+
+.list-kegiatan .date-status{
+	color: #006399;
+	font-size: 13px;
+}
+
+.btn-outline-primary{
+	color: #0080C5;
+	border: 1px solid #0080C5;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.btn-outline-primary:hover{
+	color: white;
+	background-color: #0080C5;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/*Kegiatan*/
+
+/*Pusat Unduhan*/
+.title-unduh{
+	background-image: url("../img/bg-unduh.jpg");
+	opacity: 0.6;
+}
+
+.title-unduh p{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.list-unduh{
+	background-color: white;
+}
+
+.list-unduh img{
+	width: 50%;
+	padding: 10px;
+}
+
+.list-unduh .card{
+	border-color: #006399;
+}
+
+.list-unduh .thumb-img{
+	margin: 10px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #F3F3F3;
+}
+
+.list-unduh .card-title{
+	color: #006399;
+	font-weight: bold;
+}
+
+.list-unduh .btn-primary{
+	color: #0080C5;
+	border: 1px solid #006399;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.list-unduh .btn-outline-primary:hover{
+	color: white;
+	background-color: #006399;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+.pagination li{
+	border: none;
+}
+/*Pusat Unduhan*/
+
+/*Footer*/
+#footer{
+	background-color: #94D9FF;
+}
+
+#footer .footer-logo{
+	max-height: 40px;
+}
+
+#footer p{
+	font-family: 'Lato', sans-serif !important;
+	color: #004266;
+}
+
+#footer ul{
+	padding-left: 0px;
+}
+
+#footer li{
+	font-family: 'Lato', sans-serif !important;
+	list-style-type: none;
+	color: #004266;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+#footer li a{
+	font-family: 'Lato', sans-serif !important;
+	text-decoration: none;
+	color: #004266;
+}
+
+#footer li i{
+	color: #004266;
+}
+
+#footer li a:hover{
+	color: #001E2E;
+}
+/*Footer*/
