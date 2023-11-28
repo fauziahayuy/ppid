@@ -73,16 +73,17 @@ body::-webkit-scrollbar{
 	background-color: white;
 }
 
+.item-kegiatan{
+	width: 100%;
+}
+
 .title-kegiatan h4,h5{
 	font-family: 'Lato', sans-serif;
 }
 
-.list-kegiatan a{
-	text-decoration: none;
-}
-
-.list-kegiatan a:hover{
+.list-kegiatan .hover-body:hover{
 	background-color: #94D9FF;
+	cursor: pointer;
 }
 
 .list-kegiatan .card{
@@ -128,9 +129,12 @@ body::-webkit-scrollbar{
 /*Kegiatan*/
 
 /*Pusat Unduhan*/
-.title-unduh{
+.title-unduh::before{
+	content: "";
 	background-image: url("../img/bg-unduh.jpg");
-	opacity: 0.6;
+	background-size: cover;
+    position: absolute;
+	opacity: 0.75;
 }
 
 .title-unduh p{
@@ -180,6 +184,10 @@ body::-webkit-scrollbar{
 
 .pagination li{
 	border: none;
+}
+
+.pagination {
+    border-style: none !important;
 }
 /*Pusat Unduhan*/
 
