@@ -73,7 +73,7 @@ body::-webkit-scrollbar{
 	background-color: white;
 }
 
-.item-kegiatan{
+.list-kegiatan{
 	width: 100%;
 }
 
@@ -127,6 +127,43 @@ body::-webkit-scrollbar{
 	padding-right: 20px;
 }
 /*Kegiatan*/
+
+/* modal kegiatan */
+.modal-title{
+	color: #006399;
+	font-weight: bold;
+}
+
+.modal-body i,.ket-acara,.ket-kategori{
+	color: #006399;
+}
+
+.modal-body .ket-kategori,.ket-acara{
+	margin-top: -10px;
+}
+
+.modal-body ul{
+	padding-left: 0px;
+}
+
+.modal-body li{
+	list-style-type: none;
+	font-size: 14px;
+}
+
+.modal-body .btn-primary{
+	color: #006399;
+	background-color: #61C8FF;
+	font-size: 13px;
+	border: none;
+}
+
+.modal-footer .btn-secondary{
+	color: #61C8FF;
+	background-color: #006399;
+	border: none;
+}
+/* modal kegiatan */
 
 /*Pusat Unduhan*/
 .title-unduh::before{
