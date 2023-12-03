@@ -166,15 +166,15 @@ body::-webkit-scrollbar{
 /* modal kegiatan */
 
 /*Pusat Unduhan*/
-.title-unduh::before{
+/* .title-unduh::before{
 	content: "";
 	background-image: url("../img/bg-unduh.jpg");
 	background-size: cover;
     position: absolute;
 	opacity: 0.75;
-}
+} */
 
-.title-unduh p{
+.title-unduh p, .title-informasi p, .title-gratifikasi p, .title-peraturan p, .title-panduan p, .title-faq p{
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 }
@@ -216,7 +216,6 @@ body::-webkit-scrollbar{
 	background-color: #006399;
 	padding-left: 20px;
 	padding-right: 20px;
-
 }
 
 .pagination li{
@@ -227,6 +226,118 @@ body::-webkit-scrollbar{
     border-style: none !important;
 }
 /*Pusat Unduhan*/
+
+/* Kategori */
+.isi-kategori h3, .isi-peraturan h3, .isi-panduan h3, .isi-faq h3{
+	color: #0080C5;
+	font-weight: bold;
+}
+
+.isi-kategori hr, .isi-peraturan hr, .isi-panduan hr, .isi-faq hr{
+	width: 10%; 
+	margin: 0 45% 0 45%;
+}
+
+.isi-kategori .card-header{
+	background-color: #006399;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.isi-kategori .card-header h5{
+	margin-bottom: 0px;
+}
+
+.isi-kategori .card-text p, li{
+	text-align: justify;
+}
+/* Kategori */
+
+/* faq */
+.accordion-button{
+	color: #006399;
+}
+
+.accordion-button:link, .accordion-button:visited, .accordion-button:hover, .accordion-button:active  {
+	background-color: #006399 !important;
+	color:white !important;
+	text-decoration: none !important;
+	border: hidden !important;
+	border-color: #FFF !important;
+	box-shadow: 0px !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+	transform: rotate(180deg)
+}
+
+.accordion-button:not(.collapsed) {
+	color: white  !important;
+	background-color: #006399 !important;
+}
+
+.accordion-body{
+	text-align: justify;
+}
+/* faq */
+
+/* Peraturan Kategori */
+.isi-peraturan table, .isi-panduan table{
+	width: 80%;
+}
+/* Peraturan Kategori */
+
+
+
+/* Wilayah */
+.wilayah h4{
+	color: #006399;
+	font-weight: bold;
+}
+
+/*wilayah*/
+.title-wilayah h4{
+	color: #024C5A;
+	text-align: center;
+}
+
+#wilayah .carousel-inner{
+    padding: 1em;
+}
+
+#wilayah .card{
+	width: fit-content;
+	border: none;
+	text-align: center;
+}
+
+#wilayah .card .card-body img{
+	height: 150px;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+#wilayah .card .card-body{
+	background-color: #F3F3F3;
+}
+
+#wilayah .card .card-body a{
+	text-decoration: none;
+}
+
+#wilayah .card .card-body a:hover .card-title{
+	color: #006399;
+	font-weight: bold;
+}
+
+#wilayah .card-title{
+	color: #0080C5;
+	font-weight: 500;
+}
+/* Wilayah */
 
 /*Footer*/
 #footer{
@@ -268,3 +379,14 @@ body::-webkit-scrollbar{
 	color: #001E2E;
 }
 /*Footer*/
+
+@media (min-width: 992px) {
+	#wilayah .carousel-inner {
+	  display: flex;
+	}
+	#wilayah .carousel-item {
+	  margin-right: 0;
+	  flex: 0 0 33.333333%;
+	  display: block;
+	}
+  }
