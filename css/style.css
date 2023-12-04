@@ -358,18 +358,18 @@ body::-webkit-scrollbar{
 	outline: none;
 }
 
-#informasi input, textarea{
+#informasi .input-formnya, #informasi textarea{
 	width: 100%;
 }
 
-#informasi input{
+#informasi .input-formnya{
 	border-radius: 5px;
 	padding: 10px;
     border: 1px solid #006399;
     transition: border-color 0.3s ease;
 }
 
-#informasi input:focus {
+#informasi .input-formnya:focus {
     border-color: #009E9D; /* Change this to the desired color */
     outline: none; /* Optional: Remove the default focus outline */
 }
