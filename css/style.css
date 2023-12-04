@@ -288,8 +288,6 @@ body::-webkit-scrollbar{
 }
 /* Peraturan Kategori */
 
-
-
 /* Wilayah */
 .wilayah h4{
 	color: #006399;
@@ -338,6 +336,44 @@ body::-webkit-scrollbar{
 	font-weight: 500;
 }
 /* Wilayah */
+
+/* Permohonan Informasi */
+#informasi .btn-outline-primary{
+	border-color: #006399;
+}
+
+#informasi .col-md-12 label{
+	font-weight: bold;
+	color: #006399;
+}
+
+#informasi textarea{
+	border-color: #006399;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#informasi textarea:focus{
+	border-color: #009E9D !important;
+	outline: none;
+}
+
+#informasi input, textarea{
+	width: 100%;
+}
+
+#informasi input{
+	border-radius: 5px;
+	padding: 10px;
+    border: 1px solid #006399;
+    transition: border-color 0.3s ease;
+}
+
+#informasi input:focus {
+    border-color: #009E9D; /* Change this to the desired color */
+    outline: none; /* Optional: Remove the default focus outline */
+}
+/* Permohonan Informasi */
 
 /*Footer*/
 #footer{
