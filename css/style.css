@@ -174,12 +174,12 @@ body::-webkit-scrollbar{
 	opacity: 0.75;
 } */
 
-.title-unduh, .title-informasi, .title-gratifikasi, .title-peraturan, .title-panduan, .title-faq{
+.title-unduh, .title-informasi, .title-gratifikasi, .title-peraturan, .title-panduan, .title-faq, .title-pengajuan{
 	background-color: #004266;
 	margin-bottom: 20px;
 }
 
-.title-unduh p, .title-informasi p, .title-gratifikasi p, .title-peraturan p, .title-panduan p, .title-faq p{
+.title-unduh p, .title-informasi p, .title-gratifikasi p, .title-peraturan p, .title-panduan p, .title-faq p, .title-pengajuan p{
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	color: white;
@@ -348,38 +348,49 @@ body::-webkit-scrollbar{
 	border-color: #006399;
 }
 
-#informasi .col-md-12 label{
+#informasi .col-md-12 label, #pengajuan-keberatan .col-md-12 label{
 	font-weight: bold;
 	color: #006399;
 }
 
-#informasi textarea{
+#informasi textarea, #pengajuan-keberatan textarea{
 	border-color: #006399;
 	padding: 10px;
 	border-radius: 5px;
 }
 
-#informasi textarea:focus{
+#informasi textarea:focus, #pengajuan-keberatan textarea:focus{
 	border-color: #009E9D !important;
 	outline: none;
 }
 
-#informasi .input-formnya, #informasi textarea{
+#informasi .input-formnya, #informasi textarea, #pengajuan-keberatan .input-formnya, #pengajuan-keberatan textarea{
 	width: 100%;
 }
 
-#informasi .input-formnya{
+#informasi .input-formnya, #pengajuan-keberatan .input-formnya{
 	border-radius: 5px;
 	padding: 10px;
     border: 1px solid #006399;
     transition: border-color 0.3s ease;
 }
 
-#informasi .input-formnya:focus {
+#informasi .input-formnya:focus, #pengajuan-keberatan .input-formnya:focus {
     border-color: #009E9D; /* Change this to the desired color */
     outline: none; /* Optional: Remove the default focus outline */
 }
 /* Permohonan Informasi */
+
+/* Pengajuan Keberatan */
+#pengajuan-keberatan .title-alasan{
+	color: #006399;
+	font-weight: bold;
+}
+
+/* #pengajuan-keberatan .form-check .form-check-input:checked ~, .form-check-input::before{
+	background-color: #006399;
+} */
+/* Pengajuan Keberatan */
 
 /*Footer*/
 #footer{

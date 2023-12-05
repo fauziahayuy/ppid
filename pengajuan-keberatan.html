@@ -28,7 +28,7 @@
                 <a class="nav-link" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item dropdown px-4">
-                <a class="nav-link active fw-bold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Informasi
                 </a>
                 <ul class="dropdown-menu">
@@ -59,7 +59,143 @@
 
     <!-- Pengajuan Keberatan -->
     <section id="pengajuan-keberatan">
+        <div class="informasi">
+            <div class="title-pengajuan py-3">
+                <div class="container">
+                    <p>Home / Form Pengajuan Keberatan Informasi Publik</p>
+                </div>
+            </div>
 
+            <div class="form-pengajuan">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label>Kode Permohonan*</label>
+                                    <input class="input-formnya" type="text" name="kode-permohonan" placeholder="Masukkan Kode Permohonan Anda">
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <label>Upload KTP Pribadi</label>
+                                    <input class="form-control input-formnya" type="file" id="formFile">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6 d-flex align-items-center justify-content-center">
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button class="btn btn-primary" type="submit" style="background-color: #004266;">Ajukan Permohonan</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <p class="mt-5 title-alasan">Alasan Pengajuan Keberatan*</p>
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="row">
+                                <div class="col-md-12 mb-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="option1" value="option1">
+                                        <label class="form-check-label" for="option1">Penolakan atas permintaan informasi berdasarkan alasan pengecualian sebagaimana dimaksud dalam Pasal 17 UU No. 14 Tahun 2008</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="option2" value="option2">
+                                        <label class="form-check-label" for="option2">Tidak ditanggapinya permintaan informasi</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="option3" value="option3">
+                                        <label class="form-check-label" for="option3">Tidak dipenuhinya permintaan informasi</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="option4" value="option4">
+                                        <label class="form-check-label" for="option4">Penyampaian informasi yang melebihi jangka waktu yang diatur dalam UU No. 14 Tahun 2008</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="row">
+                                <div class="col-md-12 mb-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="option5" value="option5">
+                                        <label class="form-check-label" for="option5">Tidak disediakannya informasi berkala</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="option6" value="option6">
+                                        <label class="form-check-label" for="option6">Permintaan informasi tidak ditanggapi sebagaimana yang diminta</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="option7" value="option7">
+                                        <label class="form-check-label" for="option7">Pengenaan biaya yang tidak wajar</label>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <p class="mt-5 title-alasan">Identitas Kuasa Pemohon (jika ada)</p>
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label>Nama Lengkap</label>
+                                    <input class="input-formnya" type="text" name="nik_no_ktp" id="name" placeholder="Masukkan Nama Lengkap Anda">
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <label>Alamat</label>
+                                    <textarea name="alamat" id="myTextarea" cols="50" rows="5" placeholder="Masukkan Alamat Anda"></textarea>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <label for="inputNohp" class="form-label">Nomor Telepon</label>
+                                    <input type="number" class="form-control input-formnya" id="inputNohp" max="13" placeholder="Masukkan Nomor Telepon Anda">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <label>Kasus Posisi (ringkasan mengenal kasus)*</label>
+                                    <textarea name="alamat" id="myTextarea" cols="50" rows="5" placeholder="Masukkan Kasus Posisi"></textarea>
+                                </div>
+                                <div class="col-md-12 mt-3">
+                                    <label>Upload Surat Keberatan (jika ada)</label>
+                                    <input class="form-control input-formnya" type="file" id="formFile">
+                                  </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md text-center my-4">
+                          <button class="btn btn-primary" type="submit" style="background-color: #004266;">Ajukan Permohonan</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div>
     </section>
     <!-- Pengajuan Keberatan -->
 
