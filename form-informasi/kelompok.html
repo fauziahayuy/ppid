@@ -7,27 +7,17 @@
             <option value="lembaga">Lembaga</option>
             <option value="kelompok">Kelompok Orang</option>
         </select>
-        <!-- <div class="btn-group" style="width: 100%;">
-          <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-align: start;">
-            Perorangan
-          </button>
-          <ul class="dropdown-menu" style="width: 100%;">
-            <li><a class="dropdown-item" href="#">Perorangan</a></li>
-            <li><a class="dropdown-item" href="#">Lembaga / Organisasi</a></li>
-            <li><a class="dropdown-item" href="#">Kelompok Orang</a></li>
-          </ul>
-        </div> -->
       </div>
       <div class="col-md-12 mt-3">
-        <label>Nik/No. Identitas Pribadi</label>
-        <input class="input-formnya" type="number" name="nik_no_ktp" id="nik_no_ktp" max="16" placeholder="Masukkan NIK/No. Identitas Pribadi">
+        <label>Nik/No. Identitas Pemberi Kuasa</label>
+        <input class="input-formnya" type="number" name="nik_no_ktp" id="nik_no_ktp" max="16" placeholder="Masukkan NIK/No. Identitas Pemberi Kuasa">
       </div>
       <div class="col-md-12 mt-3">
-        <label>Nama Lengkap</label>
-        <input class="input-formnya" type="text" name="nik_no_ktp" id="name" placeholder="Masukkan Nama Lengkap Anda">
+        <label>Nama Kelompok Orang</label>
+        <input class="input-formnya" type="text" name="nama_kuasa" id="name" placeholder="Masukkan Nama Kelompok Orang">
       </div>
       <div class="col-md-12 mt-3">
-        <label>Upload KTP Pribadi</label>
+        <label>Upload KTP Pemberi Kuasa</label>
         <input class="form-control input-formnya" type="file" id="formFile">
       </div>
       <div class="col-md-12 mt-3">
@@ -47,6 +37,10 @@
 
   <div class="col-md-6">
     <div class="row">
+      <div class="col-md-12 mt-3">
+        <label>Upload Surat Kuasa</label>
+        <input class="form-control input-formnya" type="file" id="formFile">
+      </div>
       <div class="col-md-12">
         <label>Rincian Informasi</label>
         <textarea name="rincian_informasi" id="myTextarea" cols="50" rows="5" placeholder="Masukkan Rincian Informasi"></textarea>
@@ -114,5 +108,10 @@
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md text-center my-4">
+      <button class="btn btn-primary" type="submit" style="background-color: #004266;">Ajukan Permohonan</button>
     </div>
   </div>

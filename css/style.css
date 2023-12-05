@@ -174,9 +174,15 @@ body::-webkit-scrollbar{
 	opacity: 0.75;
 } */
 
+.title-unduh, .title-informasi, .title-gratifikasi, .title-peraturan, .title-panduan, .title-faq{
+	background-color: #004266;
+	margin-bottom: 20px;
+}
+
 .title-unduh p, .title-informasi p, .title-gratifikasi p, .title-peraturan p, .title-panduan p, .title-faq p{
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
+	color: white;
 }
 
 .list-unduh{

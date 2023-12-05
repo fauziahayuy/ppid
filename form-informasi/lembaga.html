@@ -7,27 +7,17 @@
             <option value="lembaga" selected>Lembaga</option>
             <option value="kelompok">Kelompok Orang</option>
         </select>
-        <!-- <div class="btn-group" style="width: 100%;">
-          <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-align: start;">
-            Perorangan
-          </button>
-          <ul class="dropdown-menu" style="width: 100%;">
-            <li><a class="dropdown-item" href="#">Perorangan</a></li>
-            <li><a class="dropdown-item" href="#">Lembaga / Organisasi</a></li>
-            <li><a class="dropdown-item" href="#">Kelompok Orang</a></li>
-          </ul>
-        </div> -->
       </div>
       <div class="col-md-12 mt-3">
-        <label>Nik/No. Identitas Pribadi</label>
-        <input class="input-formnya" type="number" name="nik_no_ktp" id="nik_no_ktp" max="16" placeholder="Masukkan NIK/No. Identitas Pribadi">
+        <label>Nik/No. Identitas Pimpinan</label>
+        <input class="input-formnya" type="number" name="nik_no_ktp" id="nik_no_ktp" max="16" placeholder="Masukkan NIK/No. Identitas Pimpinan">
       </div>
       <div class="col-md-12 mt-3">
-        <label>Nama Lengkap</label>
-        <input class="input-formnya" type="text" name="nik_no_ktp" id="name" placeholder="Masukkan Nama Lengkap Anda">
+        <label>Nama Lembaga / Organisasi</label>
+        <input class="input-formnya" type="text" name="nama_lembaga" id="name" placeholder="Masukkan Nama Lembaga / Organisasi Anda">
       </div>
       <div class="col-md-12 mt-3">
-        <label>Upload KTP Pribadi</label>
+        <label>Upload KTP Pimpinan</label>
         <input class="form-control input-formnya" type="file" id="formFile">
       </div>
       <div class="col-md-12 mt-3">
@@ -42,14 +32,22 @@
         <label for="inputNohp" class="form-label">Nomor Telepon</label>
         <input type="number" class="form-control input-formnya" id="inputNohp" max="13" placeholder="Masukkan Nomor Telepon Anda">
       </div>
+      <div class="col-md-12 mt-3">
+        <label for="inputPekerjaan" class="form-label">Pekerjaan</label>
+        <input type="text" class="form-control input-formnya" id="inputPekerjaan" placeholder="Masukkan Pekerjaan Anda">
+      </div>
     </div>
   </div>
 
   <div class="col-md-6">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 mt-3">
         <label>Upload Akta Notaris Lembaga / Organisasi</label>
-        <textarea name="rincian_informasi" id="myTextarea" cols="50" rows="5" placeholder="Masukkan Rincian Informasi"></textarea>
+        <input class="form-control input-formnya" type="file" id="formFile">
+      </div>
+      <div class="col-md-12 mt-2">
+        <label>Rincian Informasi</label>
+        <textarea name="penggunaan_informasi" id="myTextarea" cols="50" rows="5" placeholder="Masukkan Tujuan Penggunaan Informasi"></textarea>
       </div>
       <div class="col-md-12 mt-2">
         <label>Tujuan Penggunaan Informasi</label>
@@ -80,7 +78,7 @@
           </div>
         </div>
       </div>
-      <!-- <div class="col-md-12 mt-2">
+      <div class="col-md-12 mt-2">
         <label for="">Mendapatkan Salinan Informasi</label><br>
         <div class="radio-group-input d-flex mt-3">
           <div class="radio-left d-flex flex-row">
@@ -94,8 +92,8 @@
             </div>
           </div>
         </div>
-      </div> -->
-      <!-- <div class="col-md-12 mt-2">
+      </div>
+      <div class="col-md-12 mt-2">
         <label for="">Cara Mendapatkan Salinan Informasi</label><br>
         <div class="radio-group-input d-flex mt-3">
           <div class="radio-left d-flex flex-column">
@@ -113,6 +111,12 @@
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-md text-center my-4">
+      <button class="btn btn-primary" type="submit" style="background-color: #004266;">Ajukan Permohonan</button>
+    </div>
+  </div>
+  

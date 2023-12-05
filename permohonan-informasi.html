@@ -78,16 +78,6 @@
                         <option value="lembaga">Lembaga</option>
                         <option value="kelompok">Kelompok Orang</option>
                       </select>
-                      <!-- <div class="btn-group" style="width: 100%;">
-                        <button class="btn btn-outline-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-align: start;">
-                          Perorangan
-                        </button>
-                        <ul class="dropdown-menu" style="width: 100%;">
-                          <li><a class="dropdown-item" href="#">Perorangan</a></li>
-                          <li><a class="dropdown-item" href="#">Lembaga / Organisasi</a></li>
-                          <li><a class="dropdown-item" href="#">Kelompok Orang</a></li>
-                        </ul>
-                      </div> -->
                     </div>
                     <div class="col-md-12 mt-3">
                       <label>Nik/No. Identitas Pribadi</label>
@@ -189,6 +179,11 @@
                 </div>
 
               </div>
+              <div class="row">
+                <div class="col-md text-center my-4">
+                  <button class="btn btn-primary" type="submit" style="background-color: #004266;">Ajukan Permohonan</button>
+                </div>
+              </div>
             </div>
           </div>
             
@@ -240,10 +235,10 @@
           $("#isi-form").html("");
           if(el == "perorangan"){
             $("#isi-form").load("form-informasi/perorangan.html");
+          }else if(el == "lembaga"){
+            $("#isi-form").load("form-informasi/lembaga.html");
           }else if(el == "kelompok"){
             $("#isi-form").load("form-informasi/kelompok.html");
-          }else{
-            $("#isi-form").load("form-informasi/lembaga.html");
           }
         });
       });
