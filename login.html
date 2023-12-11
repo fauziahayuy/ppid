@@ -1,0 +1,207 @@
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>Login</title>
+        <link rel="icon" href="img/logo_disdik.png">
+        <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' rel='stylesheet'>
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <style>::-webkit-scrollbar {
+            width: 8px;
+        }
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1; 
+        }
+            
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #888; 
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555; 
+        } body {
+            color: #000;
+            overflow-x: hidden;
+            height: 100%;
+            background-color: #B0BEC5;
+            background-repeat: no-repeat;
+        }
+
+        .card0 {
+            box-shadow: 0px 4px 8px 0px #757575;
+            border-radius: 0px;
+        }
+
+        .card2 {
+            margin: 0px 40px;
+        }
+
+        .logo {
+            width: 200px;
+            height: auto;
+            margin-top: 20px;
+            margin-left: 35px;
+        }
+
+        .image {
+            width: 430px;
+            height: auto;
+        }
+
+        .border-line {
+            border-right: 1px solid #EEEEEE;
+        }
+
+        .text-sm {
+            font-size: 14px !important;
+        }
+
+        ::placeholder {
+            color: #BDBDBD;
+            opacity: 1;
+            font-weight: 300
+        }
+
+        :-ms-input-placeholder {
+            color: #BDBDBD;
+            font-weight: 300
+        }
+
+        ::-ms-input-placeholder {
+            color: #BDBDBD;
+            font-weight: 300
+        }
+
+        input, textarea {
+            padding: 10px 12px 10px 12px;
+            border: 1px solid lightgrey;
+            border-radius: 2px;
+            margin-bottom: 5px;
+            margin-top: 2px;
+            width: 100%;
+            box-sizing: border-box;
+            color: #2C3E50;
+            font-size: 14px;
+            letter-spacing: 1px;
+        }
+
+        input:focus, textarea:focus {
+            -moz-box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            border: 1px solid #304FFE;
+            outline-width: 0;
+        }
+
+        button:focus {
+            -moz-box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            outline-width: 0;
+        }
+
+        a {
+            color: inherit;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background-color: #0080C5;
+            width: 150px;
+            color: #fff;
+        }
+
+        .btn-primary:hover {
+            background-color: #006399;
+            color: white;
+        }
+
+        .bg-blue {
+            color: #fff;
+            background-color: #006399;
+        }
+
+        @media screen and (max-width: 991px) {
+            .logo {
+                margin-left: 0px;
+            }
+
+            .image {
+                width: 300px;
+                height: auto;
+            }
+
+            .border-line {
+                border-right: none;
+            }
+
+            .card2 {
+                border-top: 1px solid #EEEEEE !important;
+                margin: 0px 15px;
+            }
+        }</style>
+        </head>
+    <body className='snippet-body'>
+        <div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+            <div class="card card0 border-0">
+                <div class="row d-flex">
+                    <div class="col-lg-6">
+                        <div class="card1 pb-5">
+                            <div class="row">
+                                <img src="img/logo_ppid.png" class="logo">
+                            </div>
+                            <div class="row px-3 justify-content-center mt-4 mb-5 border-line">
+                                <img src="img/bg-login.png" class="image">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card2 card border-0 px-4 py-5">
+                            <div class="row px-3 py-3">
+                                <label class="mb-1"><h6 class="mb-0 text-sm">Email Address</h6></label>
+                                <input class="mb-4" type="text" name="email" placeholder="Enter a valid email address">
+                            </div>
+                            <div class="row px-3">
+                                <label class="mb-1"><h6 class="mb-0 text-sm">Password</h6></label>
+                                <input type="password" name="password" placeholder="Enter password">
+                            </div>
+                            <div class="row px-3 mb-4">
+                                <div class="custom-control custom-checkbox custom-control-inline">
+                                    <input id="chk1" type="checkbox" name="chk" class="custom-control-input"> 
+                                    <label for="chk1" class="custom-control-label text-sm">Remember me</label>
+                                </div>
+                                <a href="#" class="ml-auto mb-0 text-sm">Forgot Password?</a>
+                            </div>
+                            <div class="row mb-3 px-3">
+                                <button type="submit" class="btn btn-primary text-center">Login</button>
+                            </div>
+                            <div class="row mb-4 px-3">
+                                <small class="font-weight-bold">Don't have an account? <a class="text-danger ">Register</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-blue py-4">
+                    <div class="row px-3">
+                        <small class="ml-4 ml-sm-5 mb-2">Copyright &copy; 2023 Dinas Pendidikan dan Kebudayaan Provinsi Kalimantan Timur</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <script type='text/javascript' src='#'></script>
+    <script type='text/javascript' src='#'></script>
+    <script type='text/javascript' src='#'></script>
+    <script type='text/javascript'>#</script>
+    <script type='text/javascript'>var myLink = document.querySelector('a[href="#"]');
+    myLink.addEventListener('click', function(e) {
+        e.preventDefault();
+    });</script>
+
+    </body>
+</html>
