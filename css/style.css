@@ -165,6 +165,33 @@ body::-webkit-scrollbar{
 }
 /* modal kegiatan */
 
+/* Award */
+.award{
+	background-color: #006399;
+}
+
+.title-award{
+	color: white;
+}
+
+.list-award .card{
+	background-color: #006399;
+	box-shadow: none;
+	border: none;
+}
+
+.desc-award p{
+	font-size: 13px;
+	text-align: center;
+	color: white;
+	font-weight: 500;
+}
+
+.desc-award .card-text{
+	font-size: 12px;
+}
+/* Award */
+
 /*Pusat Unduhan*/
 /* .title-unduh::before{
 	content: "";

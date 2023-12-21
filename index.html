@@ -119,7 +119,7 @@
                   <img src="img/berita_1.jpeg" class="card-img-top" alt="...">
                   <div class="hover-body">
                     <div class="card-body">
-                      <p class="card-title">Kunjungan Kerja Disdik Kabupaten Berau</p>
+                      <p class="card-title ttl-kegiatan">Rakor Data Pokok Pendidikan Memujudkan Pemenuhan Standar Pelayanan Minimal dalam Rencana Pembangunan Daerah</p>
                       <button type="button" class="btn btn-primary btn-sm">Beasiswa Kaltim</button>
                       <div class="row date-status mt-3">
                         <div class="col-md-7">
@@ -157,7 +157,7 @@
                   <img src="img/berita_1.jpeg" class="card-img-top" alt="...">
                   <div class="hover-body">
                     <div class="card-body">
-                      <p class="card-title">Kunjungan Kerja Disdik Kabupaten Berau</p>
+                      <p class="card-title ttl-kegiatan">Kunjungan Kerja Disdik Kabupaten Berau</p>
                       <button type="button" class="btn btn-primary btn-sm">Beasiswa Kaltim</button>
                       <div class="row date-status mt-3">
                         <div class="col-md-7">
@@ -198,6 +198,52 @@
       </div>
     </section>
     <!-- Kegiatan -->
+
+    <!-- Award -->
+    <section id="award">
+      <div class="award mt-5 shadow-sm px-5 py-4">
+        <div class="container">
+
+          <div class="row">
+            <div class="title-award mb-4">
+              <h4 class="fw-bold text-center">PENGHARGAAN</h4>
+            </div>
+          </div>
+
+          <!-- card award -->
+          <!-- <div class="list-award">
+            <div class="col-md">
+              <div class="wrapper">
+                <div class="owl-carousel-award owl-theme">
+                  <div class="card">
+                    <div class="card-body desc-award">
+                      <img src="img/award/award_1.png" alt="">
+                      <p class="card-title mt-3">Badan Publik Pemerintah Provinsi dengan Kualifikasi Informatif</p>
+                      <p class="card-text">Anugerah Keterbukaan Informasi Publik Tahun 2018</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body desc-award">
+                      <img src="img/award/award_1.png" alt="">
+                      <p class="card-title mt-3">Badan Publik Pemerintah Provinsi dengan Kualifikasi Informatif</p>
+                      <p class="card-text">Anugerah Keterbukaan Informasi Publik Tahun 2018</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body desc-award">
+                      <img src="img/award/award_1.png" alt="">
+                      <p class="card-title mt-3">Badan Publik Pemerintah Provinsi dengan Kualifikasi Informatif</p>
+                      <p class="card-text">Anugerah Keterbukaan Informasi Publik Tahun 2018</p>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- Award -->
 
     <!-- Wilayah Kab/Kota -->
     <section id="wilayah">
@@ -409,6 +455,20 @@
   	})
   </script>
   <!-- owl-carousel wilayah -->
+
+  <!-- Batas Judul Kegiatan -->
+  <script type="text/javascript">
+    $(function(){
+      $(".ttl-kegiatan").each(function(i){
+        len=$(this).text().length;
+        if(len>50)
+        {
+          $(this).text($(this).text().substr(0,50)+'...');
+        }
+      });
+    });
+    </script>
+    <!-- Batas Judul Kegiatan -->
     
 
     <script type="text/javascript">
